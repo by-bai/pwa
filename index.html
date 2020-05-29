@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>by-bai</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Jost&family=Roboto+Mono&display=swap" rel="stylesheet">        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="manifest.json"></script>
+    </head>
+    <body>
+
+    <!-- Service worker-->
+    <div id="notification">A new version of this app is available. Click <a id="reload">here</a> to update.</div>
+        
+        <div class="container-1">
+
+        <!-- Header -->
+            <header>
+
+                <!-- Typing animation -->
+                <h1 class="h1-typing"></h1> 
+
+                <h2 class="h2-typing"></h2> 
+            
+            
+            </header>
+
+            <div class="call-to-action"">
+                <a data-scroll class="view-projects" href="#main">Projects</a> 
+                <a class="view-resume" href="https://drive.google.com/file/d/17jRrkFwkOSGNB12vUnND3KaE5_folKtm/view?usp=sharing" target="_blank">Resume</a> 
+            </div> 
+        
+        </div>
+
+
+        <div class="container-2" id="main">
+            <!-- Main (Terminal look) -->
+            
+            <main data-aos="fade-in"> 
+                <div class="terminal-header">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                    <div class="terminal-header-text"> sohbaihe —— zsh</div>
+                </div>
+
+                <nav class="terminal-tabs"> 
+                    <ul> 
+                        <!-- Tabs style -->
+                        <li class="current-tab" id="projects-tab">projects</li>
+                        <li id="about-tab">about</li>
+
+                    </ul>
+                </nav>
+
+                <section class="terminal-body">
+                    
+
+                    <div class="terminal-container">
+                        <section class="terminal-project-gallery"> 
+
+                            <!-- Project Item -->
+                            <div class="project-item" id="project-item-1">
+                        
+                                <div class="img-wrapper">
+                                    <img class="project-img" src="images/project-1.png">
+                                    <div class="overlay">
+                                        <div class="text">Lock-It-Down Bot</div>
+                                    </div>
+                                </div>
+                                    
+                                <div class="project-tags">
+                                    <div class="project-tag">#Flask</div>
+                                    <div class="project-tag">#Pandas</div>
+                                    <div class="project-tag">#py-tele-bot</div>
+                                </div>   
+                                
+                                <ul class="project-links"> 
+                                    <li><a href="https://by-bai.github.io/lockitdownbot/" target="_blank">Demo</a></li> 
+                                    <li><a href="https://github.com/by-bai/lock-it-down-bot/" target="_blank">Source Code</a></li>
+            
+                                </ul>
+
+                            </div>
+
+                            <!-- Project Item -->
+                            <div class="project-item" id="project-item-2">
+                
+                                <div class="img-wrapper">
+                                    <img class="project-img" src="images/project-2.png">
+                                    <div class="overlay">
+                                        <div class="text">Fitness Bud</div>
+                                    </div>
+                                </div>
+                                    
+                                <div class="project-tags">
+                                    <div class="project-tag">#HTML</div>
+                                    <div class="project-tag">#CSS</div>
+                                    <div class="project-tag">#Javascript</div>
+                                </div>   
+                                
+                                <ul class="project-links"> 
+                                    <li><a href="http://by-bai.github.io/fitnessbud/" target="_blank">Demo</a></li>
+                                    <li><a href="https://github.com/by-bai/generate-workouts" target="_blank">Source Code</a></li>
+            
+                                </ul>
+
+                            </div>
+
+                                <!-- Project Item -->
+                                <div class="project-item" id="project-item-3">
+                
+                                <div class="img-wrapper">
+                                    <img class="project-img" src="images/project-3.png">
+                                    <div class="overlay">
+                                        <div class="text">My Portfolio</div>
+                                    </div>
+                                </div>
+                                    
+                                <div class="project-tags">
+                                    <div class="project-tag">#HTML</div>
+                                    <div class="project-tag">#CSS</div>
+                                    <div class="project-tag">#Javascript</div>
+                                </div>   
+                                
+                                <ul class="project-links"> 
+                                    <li><a href="https://github.com/by-bai/portfolio-website" target="_blank">Source Code</a></li>
+            
+                                </ul>
+
+                            </div>
+                            
+                            <!-- Project Item -->
+                            <div class="project-item" id="project-item-4">
+
+                                <div class="img-wrapper">
+                                    <img class="project-img" src="images/project-4.png">
+                                    <div class="overlay">
+                                        <div class="text">Tamp-ura</div>
+                                    </div>
+                                </div>
+                                    
+                                <div class="project-tags">
+                                    <div class="project-tag">#QGIS</div>
+                                    <div class="project-tag">#Urban Planning</div>
+                                    <div class="project-tag">#Analytics</div>
+                                </div>   
+                                
+                                <ul class="project-links"> 
+                                    <li><a href="https://drive.google.com/file/d/1YUJLsN7eH26DdGWH4chcD5WbQ7puP_vN/view" target="_blank">Poster</a></li>
+                                    
+            
+                                </ul>
+
+                            </div>
+
+
+
+                        </section> 
+
+                        <!-- About -->
+                        <section class="terminal-about hide"> 
+
+                        &#128206; <a class="about-link" href="https://drive.google.com/file/d/17jRrkFwkOSGNB12vUnND3KaE5_folKtm/view?usp=sharing" target="_blank">baihe.resume</a>
+
+                        <div class="about-title">> current location</div>
+                        "Singapore"<br>
+                        
+                        <div class="about-title">> education</div>
+                        "SMU Information Systems, Smart City Management & Technology Major"<br>
+
+                        <div class="about-title">> interest</div>
+                        ["Web Development", "Geospatial for Urban Planning", "Data Analytics", "User Experience"]<br>
+                        
+                        <div class="about-title">> skills</div>
+                        ["Python (Flask, Pandas)", "HTML", "CSS", "Javascript", "QGIS"]<br>
+                        
+                        <h3 class="about-typing"></h3> 
+
+                    
+                        </section>
+                    
+                    </div> 
+                
+                </section>
+
+            </main>
+
+            <!-- Footer (Social Media Links) -->
+
+            <footer> 
+                v1.0 © by-bai<br><br>
+                <div class="footer-icons"> 
+                    <a href="https://www.linkedin.com/in/baihe/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+                    <a href="https://github.com/by-bai" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://drive.google.com/file/d/17jRrkFwkOSGNB12vUnND3KaE5_folKtm/view?usp=sharing" target="_blank"><i class="fas fa-file-alt"></i></a> 
+
+                </div>
+            </footer>
+            
+        </div> 
+        
+        
+        <!-- Modal -->
+        <aside class="modal"> 
+            <div class="modal-container"> 
+                <div class="modal-header">
+                    <div class="close-button"></div>
+                    <!-- <div class="terminal-header-text"> sohbaihe </div> -->
+                </div>
+                <div class="modal-content hide" id="project-modal-1"> 
+
+                    <div class="modal-title">PROJECT LOCK-IT-DOWN</div><br>
+
+                    <b>What is it?</b> <br>
+                    A 4-month long (January 2020 - April 2020) project completed in school, taken under the module SMT203 Smart City Systems & Management. In a team of 6, we created a dedicated locker management that better maps user demand to available lockers in SMU. Assisted by our Lock-It-Down Telegram-bot, the user can simply choose a preferred locker location at the tip of their fingers, creating an upgraded and more fuss-free user experience. Our current solution is a proof-of-concept which can be further developed and implemented in the future.
+                    <br><br>
+                    
+                    <b>My experience</b><br>
+                    As the Python Backend Developer, I was primarily involved in developing our telegram bot with python-telegram-bot, and our Flask web application which supports CRUD operations on our PostgreSQL database. I handled interactions between the application and our telegram bot using RESTful APIs, and contributed to the writing of our API documentation. Besides that, I was also responsible for the data analysis portion of our project, where I analysed user survey results and created visualisations of mock locker usage data using the Pandas library. 
+                    <br><br>
+                </div>
+
+                <div class="modal-content hide" id="project-modal-2"> 
+
+                    <div class="modal-title">FITNESS BUD</div><br>
+
+                    <b>What is it?</b> <br>
+                    My individual project submission for Code With Friends Spring 2020, held in May 2020, with the theme of Quarantine Improvement. As I did home workouts with friends over zoom during circuit breaker, I thought "wouldn't it be fun if we could generate a random workout to do every day, to challenge ourselves?" Hence, I decided to build workout-now - a simple web application built with HTML, CSS and Vanilla Javascript, that allows the user to select a workout category of their choice (e.g. abs) and returns a random workout video generated from the Youtube API.
+                    <br><br>
+                    
+                    <b>My experience</b><br>
+                    I participated in CWF Spring 2020 as I wanted to be committed to learning frontend development, and building an application that I would use. Currently, the web application is client-side only with no server side backend, as I wanted to focus on practicing frontend skills and gaining Vanilla Javascript mastery, before delving into Javascript frameworks like React.js and Node.js.
+                    <br><br>
+                        
+                </div>
+
+                <div class="modal-content hide" id="project-modal-3"> 
+
+                    <div class="modal-title">ONLINE PORTFOLIO</div><br>
+
+                    <b>What is it?</b> <br>
+                    This website! The current, and very first version of my online portfolio was completed in May 2020, after the end of my semester. I designed and coded this portfolio from scratch using HTML, CSS and Javascript. 
+                    <br><br>
+                    
+                    <b>My experience</b><br>
+                    In this month alone, I dabbled in frontend development - attended Smartcademy's web development course and self-learned on Youtube during the Covid-19 pandemic. There is certainly room for improvement - I hope to create better versions of my online portfolio and incorporate frameworks like Reactjs and Nodejs in future.
+                    <br><br>
+                        
+                </div>
+
+                <div class="modal-content hide" id="project-modal-4"> 
+
+                    <div class="modal-title">PROJECT TAMP-URA</div><br>
+
+                    <b>What is it?</b> <br>
+                    A 4-month long (August 2019 - November 2019) project completed in school, taken under the module SMT201 Geospatial Analytics for Urban Planning. In a team of 3, we built a GIS-enabled urban planning support system by integrating data from data.gov.sg. We conducted geospatial analysis on the Tampines planning area in Singapore. With insights from our population trend analyses in which the elderly population in Tampines is predicted to grow, we proposed building more eldercare centres and silver zones in the areas that we have identified using land suitability analysis.
+                    <br><br>
+                    
+                    <b>My experience</b><br>
+                    Through this project, I learnt about the concepts of land use change detection, population trend analysis and land suitability analysis. Some of the key skills I've attained on QGIS are: geocoding, raster analysis, AHP, criterion mapping and network analysis. This project has exposed me to the practical applications of GIS in smart city management and planning, which has certainly sparked my interest in geospatial data. 
+                    <br><br>
+                </div>
+
+
+            </div>
+        </aside>
+
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="script.js" async defer></script>
+        <script src="registerServiceWorker.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                easing: 'ease-in-quad',
+            });
+  
+        </script>
+    </body>
+</html>
